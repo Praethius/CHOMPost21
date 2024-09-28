@@ -267,7 +267,12 @@
 			teles_left -= 1
 
 			// use a lot of power
-			use_power(trueDistance * 10000)
+			//use_power(trueDistance * 10000) //PRAEEDIT 1 instead of 10000 while testing
+			use_power(trueDistance * 1)
+
+			visible_message("distance: [distance], dist_off: [distance_off] = true Dist: [trueDistance]") //PRAEEDIT
+			visible_message("rotation: [rotation], rot_off: [rotation_off] = true Rot: [trueRotation]") //PRAEEDIT
+			visible_message("True X: [trueX], True Y: [trueY]") //PRAEEDIT
 
 			var/datum/effect/effect/system/spark_spread/S = new /datum/effect/effect/system/spark_spread()
 			S.set_up(5, 1, get_turf(telepad))

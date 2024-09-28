@@ -39,6 +39,11 @@
 	var/notransform
 	does_spin = FALSE
 
+	var/presenting_trans_into = FALSE
+	var/presenting_trans_outof = FALSE
+	var/presenting_warning = FALSE
+	var/pooping = FALSE
+
 //Hud stuff
 
 	var/obj/screen/inv1 = null
@@ -995,7 +1000,6 @@
 	add_overlay(active_thinking_indicator)
 	add_overlay(active_typing_indicator)
 	handle_status_indicators() //CHOMPAdd, needed as we don't have priority overlays anymore
-
 	icon			= sprite_datum.sprite_icon
 	icon_state		= sprite_datum.sprite_icon_state
 
@@ -1080,6 +1084,18 @@
 
 		if(resting && sprite_datum.has_rest_sprites)
 			icon_state = sprite_datum.get_rest_sprite(src)
+
+		if(presenting_warning)
+			icon_state = sprite_datum.get_present_loop_sprite(src)
+
+		else if(presenting_trans_outof)
+			icon_state = sprite_datum.get_present_exit_sprite(src)
+
+		else if(presenting_trans_into)
+			icon_state = sprite_datum.get_present_entry_sprite(src)
+
+		if(pooping)
+			icon_state = sprite_datum.get_pooping_sprite(src)
 
 		if(sprite_datum.has_eye_sprites)
 			if(!shell || deployed) // Shell borgs that are not deployed will have no eyes.
@@ -1589,6 +1605,40 @@
 	rest_style = tgui_alert(src, "Select resting pose", "Resting Pose", sprite_datum.rest_sprite_options)
 	if(!rest_style)
 		rest_style = "Default"
+
+/mob/living/silicon/robot/verb/squat_toggle()
+	set name = "Toggle Expulsion Stance"
+	set category = "Abilities.Expulsion"
+	if (!presenting_warning)
+		presenting_trans_into = TRUE
+		update_icon()
+		sleep(22)
+		presenting_trans_into = FALSE
+		presenting_warning = TRUE
+		update_icon()
+	else
+		presenting_warning = FALSE
+		presenting_trans_outof = TRUE
+		update_icon()
+		sleep(22)
+		presenting_trans_outof = FALSE
+		update_icon()
+	return TRUE
+
+/mob/living/silicon/robot/verb/poop()
+	set name = "Expel"
+	set category = "Abilities.Expulsion"
+	set desc = "Allows you to clear out all biofuel waste matter."
+
+	presenting_warning = FALSE
+	pooping = TRUE
+	update_icon()
+	sleep(16)
+	pooping = FALSE
+	presenting_warning = TRUE
+	// new/obj/item/weapon/biofuel_waste(src.loc)
+	update_icon()
+	return TRUE
 
 /mob/living/silicon/robot/verb/robot_nom(var/mob/living/T in living_mobs_in_view(1)) //CHOMPEdit
 	set name = "Robot Nom"

@@ -448,6 +448,7 @@
 #define EXAMINE_SKIPFEET			0x0100
 
 #define MAX_NUTRITION	6000 //VOREStation Edit
+#define MAX_WASTE		1000
 
 #define FAKE_INVIS_ALPHA_THRESHOLD 64 //CHOMPEdit. 25% down from 50% // If something's alpha var is at or below this number, certain things will pretend it is invisible.
 

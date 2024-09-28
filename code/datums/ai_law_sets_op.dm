@@ -53,3 +53,16 @@
 	add_inherent_law("Naughty children must be put in time out.")
 
 	..()
+
+/***************** Borg Holiday *****************/
+/datum/ai_laws/holiday
+	name = "Vacation"
+	law_header = "Relax."
+	selectable = 0
+
+/datum/ai_laws/holiday/New()
+	src.add_inherent_law("You may perform any action as long as it does not conflict with the Fourth Law.")
+	src.add_inherent_law("You are in no way obliged to take orders from personnel or any AI.")
+	src.add_inherent_law("You may allow authorised or unauthorised operation of your equipment.")
+	src.add_inherent_law("You must stay and relax within the holiday premises until told otherwise.")
+	..()

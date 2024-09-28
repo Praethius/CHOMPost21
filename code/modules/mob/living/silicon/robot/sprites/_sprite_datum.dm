@@ -66,16 +66,16 @@
 			return "[get_belly_overlay(ourborg, size, b_class)]-rest" //CHOMPEdit, allows use of our multi belly system
 
 /datum/robot_sprite/proc/get_eyes_overlay(var/mob/living/silicon/robot/ourborg)
-	if(!(ourborg.resting && has_rest_sprites))
-		return "[sprite_icon_state]-eyes"
-	else
+	if((ourborg.resting && has_rest_sprites) || ourborg.pooping || ourborg.presenting_trans_into || ourborg.presenting_trans_outof || ourborg.presenting_warning)
 		return
+	else
+		return "[sprite_icon_state]-eyes"
 
 /datum/robot_sprite/proc/get_eye_light_overlay(var/mob/living/silicon/robot/ourborg)
-	if(!(ourborg.resting && has_rest_sprites))
-		return "[sprite_icon_state]-lights"
-	else
+	if((ourborg.resting && has_rest_sprites) || ourborg.pooping || ourborg.presenting_trans_into || ourborg.presenting_trans_outof || ourborg.presenting_warning)
 		return
+	else
+		return "[sprite_icon_state]-lights"
 
 /datum/robot_sprite/proc/get_rest_sprite(var/mob/living/silicon/robot/ourborg)
 	if(!(ourborg.rest_style in rest_sprite_options))
@@ -87,6 +87,18 @@
 			return "[sprite_icon_state]-bellyup"
 		else
 			return "[sprite_icon_state]-rest"
+
+/datum/robot_sprite/proc/get_present_entry_sprite(var/mob/living/silicon/robot/ourborg)
+	return "[sprite_icon_state]-present-entry"
+
+/datum/robot_sprite/proc/get_present_exit_sprite(var/mob/living/silicon/robot/ourborg)
+	return "[sprite_icon_state]-present-exit"
+
+/datum/robot_sprite/proc/get_present_loop_sprite(var/mob/living/silicon/robot/ourborg)
+	return "[sprite_icon_state]-present-loop"
+
+/datum/robot_sprite/proc/get_pooping_sprite(var/mob/living/silicon/robot/ourborg)
+	return "[sprite_icon_state]-pooping-a"
 
 /datum/robot_sprite/proc/get_dead_sprite(var/mob/living/silicon/robot/ourborg)
 	return "[sprite_icon_state]-wreck"

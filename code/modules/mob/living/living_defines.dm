@@ -20,6 +20,8 @@
 
 	var/nutrition = 400
 	var/max_nutrition = MAX_NUTRITION
+	var/waste = 0
+	var/max_waste = MAX_WASTE
 
 	var/hallucination = 0 //Directly affects how long a mob will hallucinate for
 	var/list/atom/hallucinations = list() //A list of hallucinated people that try to attack the mob. See /obj/effect/fake_attacker in hallucinations.dm

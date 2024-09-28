@@ -18,7 +18,7 @@ SUBSYSTEM_DEF(ticker)
 	// var/round_progressing = 1		//Whether the lobby clock is ticking down.
 
 	var/pregame_timeleft = 0			// Time remaining until game starts in seconds. Set by config
-	var/start_immediately = FALSE		// If true there is no lobby phase, the game starts immediately.
+	var/start_immediately = TRUE		// If true there is no lobby phase, the game starts immediately.
 
 	var/hide_mode = FALSE 				// If the true game mode should be hidden (because we chose "secret")
 	var/datum/game_mode/mode = null		// The actual gamemode, if selected.

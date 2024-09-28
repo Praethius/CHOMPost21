@@ -9,7 +9,7 @@
 
 /mob/living/silicon/robot/verb/purge_nutrition()
 	set name = "Purge Nutrition"
-	set category = "Abilities.Vore"
+	set category = "Abilities.Expulsion"
 	set desc = "Allows you to clear out most of your nutrition if needed."
 
 	if (stat != CONSCIOUS || nutrition <= 1000)
@@ -17,6 +17,7 @@
 	nutrition = 1000
 	to_chat(src, span_warning("You have purged most of the nutrition lingering in your systems."))
 	return TRUE
+
 
 /mob/living/silicon/robot/proc/ex_reserve_refill()
 	set name = "Refill Extinguisher"

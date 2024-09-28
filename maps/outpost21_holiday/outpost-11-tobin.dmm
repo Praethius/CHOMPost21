@@ -1,0 +1,1472 @@
+//MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
+"af" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"as" = (
+/obj/item/hoist_kit,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"bc" = (
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"cs" = (
+/obj/structure/fence/door,
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"cw" = (
+/obj/machinery/vending/bepis,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"dy" = (
+/obj/machinery/vending/cigarette,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"eG" = (
+/obj/structure/dogbed,
+/obj/item/toy/plushie/borgplushie/drake/sci,
+/obj/item/toy/mecha/deathripley,
+/obj/item/toy/mecha/ripley,
+/obj/item/toy/plushie/green_dragon,
+/obj/item/toy/plushie/teshari/b_yw,
+/obj/item/toy/plushie/tabby_cat,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"fc" = (
+/obj/machinery/librarywikicomp/personal,
+/obj/structure/table/hardwoodtable,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"ff" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"fn" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"fL" = (
+/obj/structure/hoist,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"hl" = (
+/obj/structure/window/reinforced/tinted/frosted{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"hV" = (
+/obj/machinery/shower,
+/obj/structure/curtain/open/privacy,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"ip" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/device/tape,
+/obj/item/device/measuring_tape,
+/obj/item/device/multitool,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"iz" = (
+/obj/machinery/vending/hotfood,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"iJ" = (
+/obj/machinery/vending/cola,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"jj" = (
+/obj/structure/bed/chair/sofa/left/beige{
+	dir = 8
+	},
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"km" = (
+/obj/item/toy/minigibber{
+	desc = "A miniature recreation of NanoTrasen's famous meat grinder. Equipped with a special interlock that prevents insertion of organic material. It functions as a trash can!"
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"lP" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"mf" = (
+/obj/structure/bed/chair/sofa/right/beige,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"ml" = (
+/obj/structure/mirror{
+	dir = 8;
+	pixel_x = -32
+	},
+/obj/structure/sink{
+	dir = 8;
+	pixel_x = -12
+	},
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"nt" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"oK" = (
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"pL" = (
+/obj/structure/coatrack,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"pM" = (
+/obj/machinery/light,
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"pY" = (
+/obj/structure/simple_door,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"qD" = (
+/obj/machinery/door/airlock/glass,
+/turf/space,
+/area/centcom/living)
+"rA" = (
+/obj/machinery/vending/dinnerware,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"uP" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"uY" = (
+/obj/structure/closet/secure_closet/freezer/fridge,
+/turf/simulated/floor/tiled/eris/white/panels,
+/area/centcom/living)
+"yG" = (
+/obj/machinery/light/small/emergency,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"zd" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"zz" = (
+/turf/simulated/wall,
+/area/centcom/living)
+"Aq" = (
+/obj/machinery/power/grounding_rod/pre_mapped,
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"AN" = (
+/obj/structure/atmopost,
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"Be" = (
+/obj/machinery/microwave{
+	pixel_y = 9
+	},
+/obj/structure/table/hardwoodtable,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"BC" = (
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"BG" = (
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"BW" = (
+/obj/structure/table/rack/shelf/steel,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"Cc" = (
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Ck" = (
+/obj/effect/floor_decal/steeldecal/steel_decals_central7{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"CX" = (
+/obj/machinery/door/airlock/centcom/nameddorm,
+/turf/space,
+/area/centcom/living)
+"DA" = (
+/obj/structure/closet/wardrobe,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"FR" = (
+/obj/machinery/door/airlock/glass,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Gt" = (
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"GD" = (
+/obj/random/outcrop,
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"GF" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Il" = (
+/obj/structure/table/hardwoodtable,
+/obj/item/weapon/card/id,
+/obj/item/weapon/card/id/gold,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"IP" = (
+/obj/structure/bed/padded,
+/obj/item/weapon/bedsheet,
+/obj/structure/curtain/bed,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"JS" = (
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"KC" = (
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"KW" = (
+/obj/structure/table/rack/shelf/steel,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"Lc" = (
+/obj/machinery/door/airlock/centcom/nameddorm,
+/turf/simulated/wall,
+/area/centcom/living)
+"LW" = (
+/obj/structure/table/hardwoodtable,
+/obj/item/device/flashlight/lamp/green{
+	pixel_x = -6;
+	pixel_y = 14
+	},
+/obj/item/device/flashlight/pen,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"Mj" = (
+/obj/machinery/washing_machine,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"Nw" = (
+/obj/structure/bed/chair/bay/comfy/blue{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"Ou" = (
+/obj/machinery/light,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"OA" = (
+/obj/structure/table/glass,
+/obj/item/clothing/under/bathrobe,
+/obj/item/clothing/under/bathrobe,
+/obj/item/weapon/towel/random,
+/obj/item/weapon/towel/random,
+/obj/item/weapon/towel/random,
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"PO" = (
+/obj/structure/closet/secure_closet/freezer/meat,
+/turf/simulated/floor/tiled/eris/white/panels,
+/area/centcom/living)
+"Qr" = (
+/obj/structure/fence{
+	dir = 4
+	},
+/turf/simulated/floor/outdoors/newdirt/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"Rh" = (
+/obj/structure/table/hardwoodtable,
+/obj/item/weapon/gun/energy/sizegun,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"SB" = (
+/turf/simulated/mineral/alt/ignore_mapgen/muriki,
+/area/mine/explored/muriki/mountainnorth)
+"SI" = (
+/obj/structure/table/glass,
+/obj/item/weapon/soap/blue_soap,
+/obj/item/weapon/reagent_containers/spray/cleaner,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"Tf" = (
+/obj/structure/closet/crate/bin,
+/turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"Tr" = (
+/obj/machinery/smartfridge/drying_rack,
+/turf/simulated/floor/tiled/eris/white/panels,
+/area/centcom/living)
+"Uz" = (
+/obj/structure/grille,
+/obj/structure/window/reinforced{
+	dir = 1
+	},
+/obj/structure/window/reinforced,
+/turf/space,
+/area/centcom/living)
+"Vf" = (
+/obj/machinery/vending/foodmeat,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"VH" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/weapon/gripper,
+/obj/item/weapon/gripper/research,
+/obj/item/weapon/gripper/paperwork,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"VT" = (
+/obj/structure/bed/chair/sofa/corner/beige,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"Xs" = (
+/obj/structure/table/hardwoodtable,
+/obj/item/device/integrated_circuit_printer,
+/obj/item/weapon/tool/wrench,
+/obj/item/weapon/tool/screwdriver{
+	pixel_y = 15
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"Xu" = (
+/obj/structure/table/rack/shelf/steel,
+/obj/item/taperoll,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"XI" = (
+/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
+/obj/effect/floor_decal/corner_oldtile/beige,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/machinery/light{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"YJ" = (
+/obj/structure/table/hardwoodtable,
+/obj/item/device/flashlight/lamp/green,
+/turf/simulated/floor/carpet/green,
+/area/centcom/living)
+
+(1,1,1) = {"
+Gt
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+zz
+zz
+zz
+BG
+FR
+zz
+zz
+FR
+BG
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+"}
+(2,1,1) = {"
+Gt
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+zz
+iz
+BG
+Ck
+BG
+BG
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(3,1,1) = {"
+Gt
+cs
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+zz
+Vf
+ff
+BG
+BG
+BG
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(4,1,1) = {"
+Gt
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+zz
+rA
+zz
+BG
+BG
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+"}
+(5,1,1) = {"
+Gt
+Qr
+Gt
+Gt
+Gt
+GD
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+BG
+Ou
+zz
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+bc
+zz
+"}
+(6,1,1) = {"
+Gt
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+Cc
+BG
+Lc
+bc
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+zz
+"}
+(7,1,1) = {"
+Gt
+Qr
+Gt
+GD
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+CX
+BG
+Ou
+zz
+bc
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+zz
+"}
+(8,1,1) = {"
+Gt
+Qr
+GD
+Gt
+Gt
+Gt
+Aq
+Gt
+GD
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+XI
+yG
+zz
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+bc
+zz
+"}
+(9,1,1) = {"
+Gt
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+lP
+BG
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+"}
+(10,1,1) = {"
+SB
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+hV
+JS
+OA
+zz
+JS
+ml
+SI
+zz
+GF
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(11,1,1) = {"
+SB
+Qr
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+Mj
+JS
+JS
+pY
+JS
+JS
+Tf
+zz
+nt
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(12,1,1) = {"
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+GD
+Gt
+Gt
+Gt
+Gt
+zz
+zz
+zz
+zz
+zz
+BW
+JS
+DA
+zz
+lP
+Ou
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(13,1,1) = {"
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+pM
+zz
+fL
+as
+KW
+zz
+zz
+pY
+zz
+zz
+lP
+BG
+Lc
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(14,1,1) = {"
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+pM
+zz
+hl
+hl
+bc
+zz
+km
+bc
+bc
+zz
+af
+Ou
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(15,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Uz
+Xs
+bc
+bc
+pY
+bc
+bc
+pL
+zz
+XI
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(16,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+GD
+Gt
+Gt
+Gt
+Gt
+Gt
+Uz
+Il
+bc
+bc
+zz
+KC
+bc
+bc
+Lc
+af
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(17,1,1) = {"
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Uz
+VH
+bc
+Nw
+zz
+Be
+oK
+LW
+zz
+uP
+yG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(18,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+GD
+Gt
+Gt
+Gt
+Uz
+Xu
+bc
+fc
+zz
+Rh
+oK
+PO
+zz
+af
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(19,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Uz
+ip
+bc
+bc
+zz
+oK
+oK
+uY
+zz
+af
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(20,1,1) = {"
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+pM
+zz
+fn
+fn
+oK
+zz
+mf
+oK
+Tr
+zz
+af
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(21,1,1) = {"
+SB
+SB
+SB
+Gt
+Gt
+GD
+GD
+Gt
+Gt
+Gt
+pM
+zz
+IP
+IP
+eG
+zz
+VT
+jj
+YJ
+zz
+nt
+BG
+zz
+bc
+bc
+bc
+bc
+zz
+bc
+bc
+bc
+zz
+"}
+(22,1,1) = {"
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+af
+BG
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+"}
+(23,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+GD
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+af
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(24,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+AN
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+zd
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(25,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+Cc
+BG
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+"}
+(26,1,1) = {"
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+CX
+BG
+Ou
+zz
+bc
+bc
+zz
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(27,1,1) = {"
+SB
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+Cc
+BG
+CX
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(28,1,1) = {"
+SB
+SB
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+Gt
+Gt
+zz
+bc
+bc
+bc
+bc
+zz
+zz
+zz
+zz
+BG
+Ou
+zz
+bc
+bc
+zz
+bc
+bc
+bc
+bc
+bc
+zz
+"}
+(29,1,1) = {"
+SB
+SB
+SB
+SB
+SB
+SB
+Gt
+Gt
+Gt
+SB
+SB
+zz
+bc
+bc
+bc
+bc
+zz
+cw
+BG
+BG
+BG
+BG
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+zz
+"}
+(30,1,1) = {"
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+zz
+bc
+bc
+bc
+bc
+zz
+dy
+BG
+BC
+BG
+BG
+BC
+BG
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+"}
+(31,1,1) = {"
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+zz
+bc
+bc
+bc
+bc
+zz
+iJ
+BG
+BG
+Ck
+BG
+BG
+BG
+BG
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+"}
+(32,1,1) = {"
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+SB
+zz
+bc
+bc
+bc
+bc
+zz
+zz
+zz
+qD
+zz
+zz
+qD
+zz
+zz
+zz
+bc
+bc
+bc
+bc
+bc
+bc
+"}

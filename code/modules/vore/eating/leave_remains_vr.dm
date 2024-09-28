@@ -119,7 +119,7 @@
 	var/pred_ckey
 	var/pred_name
 
-/obj/item/digestion_remains/synth
+/obj/item/weapon/digestion_remains/synth
 	name = "ruined component"
 	desc = "A ruined component. It seems to have come from some sort of robotic entity, but there's no telling what kind."
 	icon_state = "synth-1"
