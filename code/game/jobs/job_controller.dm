@@ -682,6 +682,12 @@ var/global/datum/controller/occupations/job_master
 	var/mob/living/item_carrier //CHOMPEdit - Capture crystal spawning
 	var/vorgans = FALSE //CHOMPEdit - capture crystal simplemob spawning
 
+
+	// PRAE EDIT - debug pls
+	to_chat(C, "<span class='warning'>Your pref spawn: [C.prefs.spawnpoint]</span>")
+	to_chat(C, "<span class='warning'>Allowed spawns: </span>")
+	to_chat_list(C, using_map.allowed_spawns)
+
 	//CHOMPEdit -  Remove fail_deadly addition on offmap_spawn
 
 	//Spawn them at their preferred one
@@ -959,6 +965,7 @@ var/global/datum/controller/occupations/job_master
 				return
 		//CHOMPEdit End
 		else
+
 			if(!(C.prefs.spawnpoint in using_map.allowed_spawns))
 				if(fail_deadly)
 					to_chat(C, span_warning("Your chosen spawnpoint is unavailable for this map and your job requires a specific spawnpoint. Please correct your spawn point choice."))

@@ -39,6 +39,12 @@
 	// send it immediately
 	SSchat.send_immediate(target, message)
 
+/proc/to_chat_list(target, list_obj)
+	var/i
+	for(i in list_obj)
+		to_chat(target, "[i]")
+
+
 /**
  * Sends the message to the recipient (target).
  *

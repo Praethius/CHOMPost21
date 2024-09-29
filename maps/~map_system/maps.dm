@@ -108,7 +108,7 @@ var/list/all_maps = list()
 
 	var/bot_patrolling = TRUE				// Determines if this map supports automated bot patrols
 
-	var/allowed_spawns = list("Arrivals Shuttle","Gateway", "Cryogenic Storage", "Cyborg Storage")
+	var/allowed_spawns = list("Elevator","Arrivals Shuttle","Gateway", "Cryogenic Storage", "Cyborg Storage")
 
 	// VOREStation Edit - Persistence!
 	var/datum/spawnpoint/spawnpoint_died = /datum/spawnpoint/elevator // Outpost 21 edit - changed from /datum/spawnpoint/arrivals 	// Used if you end the round dead.

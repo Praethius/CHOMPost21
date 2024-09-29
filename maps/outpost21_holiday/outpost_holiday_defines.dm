@@ -12,8 +12,7 @@
 
 	default_law_type = /datum/ai_laws/holiday
 
-	holomap_smoosh = list(list(
-		Z_LEVEL_OUTPOST_SURFACE,))
+	holomap_smoosh = list(list(Z_LEVEL_OUTPOST_SURFACE))
 
 	zlevel_datum_type = /datum/map_z_level/outpost
 
