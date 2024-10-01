@@ -4,11 +4,11 @@
 	// #include "outpost-01-basement.dmm"
 	// #include "outpost-02-surface.dmm"
 	// #include "outpost-03-upper.dmm"
-	#include "outpost-05-centcom.dmm" // For some reason, without this, we don't get a lobby icon / splash screen ?
+	// #include "outpost-05-centcom.dmm" // For some reason, without this, we don't get a lobby icon / splash screen ?
 	// #include "outpost-06-misc.dmm"
 	// #include "outpost-07-asteroid.dmm"
 	// #include "outpost-10-vr.dmm"
-	#include "outpost-11-tobin.dmm"
+	#include "outpost-12-tobin.dmm"
 
 	#include "outpost_holiday_defines.dm"
 	#include "outpost_holiday_areas.dm"
