@@ -1,8 +1,14 @@
 //MAP CONVERTED BY dmm2tgm.py THIS HEADER COMMENT PREVENTS RECONVERSION, DO NOT REMOVE
 "af" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "as" = (
@@ -18,10 +24,24 @@
 /area/mine/explored/muriki/mountainnorth)
 "cw" = (
 /obj/machinery/vending/bepis,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 8
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "dy" = (
 /obj/machinery/vending/cigarette,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"dN" = (
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/green/border,
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "eG" = (
@@ -40,7 +60,44 @@
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "ff" = (
-/obj/machinery/light/small/emergency{
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"fi" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
 	dir = 4
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
@@ -53,6 +110,13 @@
 /area/centcom/living)
 "fL" = (
 /obj/structure/hoist,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"gX" = (
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = -26
+	},
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "hl" = (
@@ -75,10 +139,16 @@
 /area/centcom/living)
 "iz" = (
 /obj/machinery/vending/hotfood,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "iJ" = (
 /obj/machinery/vending/cola,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "jj" = (
@@ -93,11 +163,36 @@
 	},
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
+"kJ" = (
+/obj/effect/floor_decal/corner/green/border,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"lg" = (
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
 "lP" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/structure/extinguisher_cabinet{
+	pixel_x = 5;
+	pixel_y = 30
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "mf" = (
@@ -116,41 +211,117 @@
 /turf/simulated/floor/tiled/freezer,
 /area/centcom/living)
 "nt" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 4
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "oK" = (
 /turf/simulated/floor/carpet/green,
 /area/centcom/living)
+"pr" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/corner/green/bordercorner{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
 "pL" = (
 /obj/structure/coatrack,
+/obj/machinery/light_switch{
+	dir = 1;
+	pixel_y = -26
+	},
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "pM" = (
 /obj/machinery/light,
 /turf/simulated/floor/outdoors/newdirt/muriki,
 /area/mine/explored/muriki/mountainnorth)
+"pP" = (
+/obj/machinery/light,
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/green/border,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
 "pY" = (
 /obj/structure/simple_door,
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "qD" = (
-/obj/machinery/door/airlock/glass,
-/turf/space,
+/obj/machinery/door/airlock/glass{
+	name = "Security Checkpoint"
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"qN" = (
+/obj/machinery/light/small/emergency,
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/green/border,
+/turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "rA" = (
 /obj/machinery/vending/dinnerware,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
+"th" = (
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/corner/green/bordercorner{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"ty" = (
+/obj/effect/landmark/start,
+/obj/effect/landmark{
+	name = "JoinLateElevator"
+	},
+/obj/effect/floor_decal/corner/green/border,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/muriki/arriveelev)
+"ur" = (
+/obj/machinery/light/small/emergency{
+	dir = 4
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"uO" = (
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
 "uP" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige,
 /obj/machinery/light{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
 	dir = 1
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
@@ -160,16 +331,41 @@
 /turf/simulated/floor/tiled/eris/white/panels,
 /area/centcom/living)
 "yG" = (
-/obj/machinery/light/small/emergency,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "zd" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/landmark/start,
+/obj/effect/landmark{
+	name = "JoinLateElevator"
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
-/area/centcom/living)
+/area/muriki/arriveelev)
 "zz" = (
 /turf/simulated/wall,
+/area/centcom/living)
+"zX" = (
+/obj/machinery/power/smes,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"Ao" = (
+/obj/machinery/light/small/emergency{
+	dir = 8
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "Aq" = (
 /obj/machinery/power/grounding_rod/pre_mapped,
@@ -187,7 +383,7 @@
 /turf/simulated/floor/carpet/green,
 /area/centcom/living)
 "BC" = (
-/obj/machinery/light/small/emergency{
+/obj/effect/floor_decal/corner/green/bordercorner{
 	dir = 8
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
@@ -200,14 +396,41 @@
 /turf/simulated/floor/tiled/freezer,
 /area/centcom/living)
 "Cc" = (
-/obj/machinery/light{
-	dir = 1
+/obj/machinery/light_switch{
+	dir = 8;
+	pixel_x = 23;
+	pixel_y = 24
 	},
-/turf/simulated/floor/tiled/old_tile/beige,
+/turf/simulated/floor/tiled/freezer,
 /area/centcom/living)
 "Ck" = (
 /obj/effect/floor_decal/steeldecal/steel_decals_central7{
 	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Cu" = (
+/obj/effect/floor_decal/corner/green/border{
+	dir = 8
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"CW" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/structure/cable/green{
+	d1 = 1;
+	d2 = 8;
+	icon_state = "1-8"
 	},
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
@@ -220,8 +443,19 @@
 /turf/simulated/floor/tiled/freezer,
 /area/centcom/living)
 "FR" = (
-/obj/machinery/door/airlock/glass,
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Gl" = (
+/obj/item/device/geiger/wall{
+	pixel_y = 30
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "Gt" = (
 /turf/simulated/floor/outdoors/newdirt/muriki,
@@ -231,10 +465,23 @@
 /turf/simulated/floor/outdoors/newdirt/muriki,
 /area/mine/explored/muriki/mountainnorth)
 "GF" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Hb" = (
+/obj/machinery/alarm{
+	pixel_y = 26
+	},
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
+"Ig" = (
+/obj/machinery/power/fusion_core,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "Il" = (
 /obj/structure/table/hardwoodtable,
@@ -248,8 +495,43 @@
 /obj/structure/curtain/bed,
 /turf/simulated/floor/carpet/green,
 /area/centcom/living)
+"JN" = (
+/obj/machinery/door/airlock/centcom/nameddorm,
+/turf/simulated/floor/tiled/milspec,
+/area/centcom/living)
 "JS" = (
 /turf/simulated/floor/tiled/freezer,
+/area/centcom/living)
+"JU" = (
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 9
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 10
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Kz" = (
+/obj/machinery/power/smes,
+/obj/machinery/power/smes,
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "KC" = (
 /obj/structure/closet/crate/bin,
@@ -283,7 +565,18 @@
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "Ou" = (
-/obj/machinery/light,
+/obj/machinery/atmospherics/pipe/simple/hidden/scrubbers{
+	dir = 4
+	},
+/obj/machinery/atmospherics/pipe/simple/hidden/supply{
+	dir = 4
+	},
+/obj/structure/cable/green{
+	d1 = 4;
+	d2 = 8;
+	icon_state = "4-8"
+	},
+/obj/effect/catwalk_plated,
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "OA" = (
@@ -297,6 +590,14 @@
 /obj/item/weapon/reagent_containers/spray/cleaner,
 /turf/simulated/floor/tiled/freezer,
 /area/centcom/living)
+"Pu" = (
+/obj/effect/landmark/start,
+/obj/effect/landmark{
+	name = "JoinLateElevator"
+	},
+/obj/effect/floor_decal/corner/green/bordercorner,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/muriki/arriveelev)
 "PO" = (
 /obj/structure/closet/secure_closet/freezer/meat,
 /turf/simulated/floor/tiled/eris/white/panels,
@@ -315,6 +616,18 @@
 "SB" = (
 /turf/simulated/mineral/alt/ignore_mapgen/muriki,
 /area/mine/explored/muriki/mountainnorth)
+"SE" = (
+/obj/machinery/firealarm{
+	dir = 1;
+	pixel_y = -30
+	},
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/green/border,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
 "SI" = (
 /obj/structure/table/glass,
 /obj/item/weapon/soap/blue_soap,
@@ -329,6 +642,13 @@
 /obj/machinery/smartfridge/drying_rack,
 /turf/simulated/floor/tiled/eris/white/panels,
 /area/centcom/living)
+"Tt" = (
+/obj/machinery/door/airlock/centcom/nameddorm{
+	matchnames = list("Tobin", "Praethius");
+	name = "Tobin's Residence"
+	},
+/turf/space,
+/area/centcom/living)
 "Uz" = (
 /obj/structure/grille,
 /obj/structure/window/reinforced{
@@ -339,7 +659,17 @@
 /area/centcom/living)
 "Vf" = (
 /obj/machinery/vending/foodmeat,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
 /turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Vo" = (
+/obj/machinery/power/apc{
+	name = "south bump";
+	pixel_y = -26
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "VH" = (
 /obj/structure/table/rack/shelf/steel,
@@ -351,6 +681,12 @@
 "VT" = (
 /obj/structure/bed/chair/sofa/corner/beige,
 /turf/simulated/floor/carpet/green,
+/area/centcom/living)
+"WP" = (
+/obj/machinery/vending/wallmed1{
+	pixel_y = -32
+	},
+/turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "Xs" = (
 /obj/structure/table/hardwoodtable,
@@ -367,13 +703,31 @@
 /turf/simulated/floor/tiled/milspec,
 /area/centcom/living)
 "XI" = (
-/obj/effect/floor_decal/corner_oldtile/beige/diagonal,
-/obj/effect/floor_decal/corner_oldtile/beige,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
-/obj/effect/floor_decal/corner_oldtile/beige/full,
 /obj/machinery/light{
 	dir = 1
 	},
+/obj/machinery/atmospherics/unary/vent_scrubber/on,
+/obj/effect/floor_decal/borderfloor{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/obj/effect/floor_decal/corner/green/border{
+	dir = 1
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"XV" = (
+/obj/machinery/atmospherics/unary/vent_pump/on{
+	dir = 1
+	},
+/obj/effect/floor_decal/borderfloor,
+/obj/effect/floor_decal/corner/green/border,
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/centcom/living)
+"Yx" = (
+/obj/effect/floor_decal/corner/green/border,
 /turf/simulated/floor/tiled/old_tile/beige,
 /area/centcom/living)
 "YJ" = (
@@ -381,6 +735,17 @@
 /obj/item/device/flashlight/lamp/green,
 /turf/simulated/floor/carpet/green,
 /area/centcom/living)
+"YL" = (
+/obj/effect/landmark/start,
+/obj/effect/landmark{
+	name = "JoinLateElevator"
+	},
+/obj/effect/floor_decal/corner/green/border,
+/obj/effect/floor_decal/corner/green/border{
+	dir = 4
+	},
+/turf/simulated/floor/tiled/old_tile/beige,
+/area/muriki/arriveelev)
 
 (1,1,1) = {"
 Gt
@@ -401,12 +766,12 @@ bc
 zz
 zz
 zz
-BG
-FR
+zz
+qD
 zz
 zz
-FR
-BG
+qD
+zz
 zz
 zz
 zz
@@ -438,9 +803,9 @@ zz
 iz
 BG
 Ck
-BG
-BG
-BG
+FR
+zd
+ty
 zz
 bc
 bc
@@ -470,11 +835,11 @@ bc
 bc
 zz
 Vf
-ff
 BG
 BG
-BG
-BG
+FR
+Pu
+YL
 zz
 bc
 bc
@@ -504,10 +869,10 @@ bc
 bc
 zz
 rA
-zz
-BG
-BG
-zz
+ur
+pr
+fi
+XV
 zz
 zz
 zz
@@ -539,10 +904,10 @@ zz
 zz
 zz
 zz
-BG
+GF
 Ou
+pP
 zz
-bc
 bc
 bc
 zz
@@ -573,10 +938,10 @@ bc
 bc
 bc
 zz
-Cc
-BG
-Lc
-bc
+uP
+yG
+dN
+JN
 bc
 bc
 bc
@@ -607,10 +972,10 @@ bc
 bc
 bc
 CX
-BG
-Ou
+GF
+yG
+pP
 zz
-bc
 bc
 bc
 bc
@@ -639,12 +1004,12 @@ bc
 bc
 bc
 bc
-bc
+WP
 zz
-XI
+uP
 yG
+qN
 zz
-bc
 bc
 bc
 zz
@@ -676,8 +1041,8 @@ zz
 zz
 zz
 lP
-BG
-zz
+yG
+dN
 zz
 zz
 zz
@@ -710,10 +1075,10 @@ ml
 SI
 zz
 GF
-BG
+yG
+dN
 zz
-bc
-bc
+Hb
 bc
 bc
 zz
@@ -744,10 +1109,10 @@ JS
 Tf
 zz
 nt
-BG
+yG
+dN
 zz
-bc
-bc
+Gl
 bc
 bc
 zz
@@ -774,13 +1139,13 @@ zz
 zz
 zz
 BW
-JS
+Cc
 DA
 zz
-lP
-Ou
+GF
+yG
+pP
 zz
-bc
 bc
 bc
 bc
@@ -811,10 +1176,10 @@ zz
 pY
 zz
 zz
-lP
-BG
+GF
+yG
+dN
 Lc
-bc
 bc
 bc
 bc
@@ -843,12 +1208,12 @@ bc
 zz
 km
 bc
-bc
+Vo
 zz
 af
-Ou
+yG
+pP
 zz
-bc
 bc
 bc
 bc
@@ -880,9 +1245,9 @@ bc
 pL
 zz
 XI
-BG
+ff
+SE
 zz
-bc
 bc
 bc
 bc
@@ -907,16 +1272,16 @@ Gt
 Uz
 Il
 bc
-bc
+gX
 zz
 KC
 bc
 bc
-Lc
-af
-BG
+Tt
+GF
+CW
+dN
 zz
-bc
 bc
 bc
 bc
@@ -949,8 +1314,8 @@ LW
 zz
 uP
 yG
+qN
 zz
-bc
 bc
 bc
 bc
@@ -981,10 +1346,10 @@ Rh
 oK
 PO
 zz
-af
-BG
+GF
+yG
+dN
 zz
-bc
 bc
 bc
 bc
@@ -1015,10 +1380,10 @@ oK
 oK
 uY
 zz
-af
-BG
+GF
+yG
+dN
 zz
-bc
 bc
 bc
 bc
@@ -1049,10 +1414,10 @@ mf
 oK
 Tr
 zz
-af
-BG
+GF
+yG
+dN
 zz
-bc
 bc
 bc
 bc
@@ -1084,9 +1449,9 @@ jj
 YJ
 zz
 nt
-BG
+yG
+dN
 zz
-bc
 bc
 bc
 bc
@@ -1117,9 +1482,9 @@ zz
 zz
 zz
 zz
-af
-BG
-zz
+GF
+yG
+dN
 zz
 zz
 zz
@@ -1151,11 +1516,11 @@ bc
 bc
 bc
 zz
-af
-BG
+lP
+yG
+dN
 zz
-bc
-bc
+Hb
 bc
 bc
 bc
@@ -1183,12 +1548,12 @@ bc
 bc
 bc
 bc
-bc
+WP
 zz
-zd
-BG
+GF
+yG
+dN
 zz
-bc
 bc
 bc
 bc
@@ -1219,9 +1584,9 @@ zz
 zz
 zz
 zz
-Cc
-BG
-zz
+uP
+yG
+dN
 zz
 zz
 zz
@@ -1253,17 +1618,17 @@ bc
 bc
 bc
 CX
-BG
-Ou
+GF
+yG
+pP
 zz
 bc
-bc
 zz
-bc
-bc
-bc
-bc
-bc
+zX
+zX
+zX
+Kz
+Kz
 zz
 "}
 (27,1,1) = {"
@@ -1287,17 +1652,17 @@ bc
 bc
 bc
 zz
-Cc
-BG
-CX
+uP
+yG
+dN
+Lc
 bc
 bc
 bc
 bc
 bc
 bc
-bc
-bc
+Ig
 zz
 "}
 (28,1,1) = {"
@@ -1321,17 +1686,17 @@ zz
 zz
 zz
 zz
-BG
+lg
 Ou
+pP
 zz
 bc
-bc
 zz
-bc
-bc
-bc
-bc
-bc
+zX
+zX
+zX
+zX
+zX
 zz
 "}
 (29,1,1) = {"
@@ -1353,11 +1718,11 @@ bc
 bc
 zz
 cw
-BG
-BG
-BG
-BG
-zz
+Cu
+Ao
+th
+JU
+XV
 zz
 zz
 zz
@@ -1388,12 +1753,12 @@ bc
 zz
 dy
 BG
+BG
+BG
+uO
 BC
-BG
-BG
-BC
-BG
-BG
+Ao
+kJ
 zz
 bc
 bc
@@ -1424,10 +1789,10 @@ iJ
 BG
 BG
 Ck
+uO
 BG
 BG
-BG
-BG
+Yx
 zz
 bc
 bc

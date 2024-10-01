@@ -4,7 +4,7 @@
 	#include "outpost-01-basement.dmm"
 	#include "outpost-02-surface.dmm"
 	#include "outpost-03-upper.dmm"
-	#include "outpost-05-centcom.dmm"
+	// #include "outpost-05-centcom.dmm"
 	#include "outpost-06-misc.dmm"
 	#include "outpost-07-asteroid.dmm"
 	#include "outpost-10-vr.dmm"
